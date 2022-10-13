@@ -1,6 +1,6 @@
 {
-  "name": "api2",
-  "version": "1.0.0",
+  "name": "@mattschlosser/api",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "module": "dist/index.js",
@@ -10,6 +10,9 @@
   },
   "author": "",
   "license": "ISC",
+  "publishConfig": {
+    "@mattschlosser:registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@tsconfig/esm": "^1.0.2",
     "typescript": "^4.8.4"
